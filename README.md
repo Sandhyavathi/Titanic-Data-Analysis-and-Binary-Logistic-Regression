@@ -43,9 +43,9 @@ This project focuses on two main tasks:
 
 **Exploratory Data Analysis:** Provided insights into survival rates based on class, gender, and age.  
 **Model Performance:**  
-    - Accuracy: \* \0.8100558659217877  
-    - Confusion Matrix: \* \[[92 13]
-                             [21 53]]  
+    - Accuracy:0.8100558659217877  
+    - Confusion Matrix: [[92 13]
+                        [21 53]]  
     - Detailed precision, recall, and F1-score in the classification report.
                 precision    recall  f1-score   support
 
