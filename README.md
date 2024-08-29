@@ -1,52 +1,52 @@
-\# Titanic Data Analysis and Binary Logistic Regression
+# Titanic Data Analysis and Binary Logistic Regression
 
-\## Project Overview
+## Project Overview
 
 This project focuses on two main tasks:  
-\* **Exploratory Data Analysis (EDA):** Analyzing the Titanic dataset to gain insights into passenger demographics and survival rates.  
-\* **Binary Logistic Regression for Classification:** Building a logistic regression model to predict passenger survival.
+**Exploratory Data Analysis (EDA):** Analyzing the Titanic dataset to gain insights into passenger demographics and survival rates.  
+**Binary Logistic Regression for Classification:** Building a logistic regression model to predict passenger survival.
 
-\## Dataset
+## Dataset
 
-\* **Source:** The Titanic dataset is loaded from \[this link\](https://raw.githubusercontent.com/datasciencedojo/datasets/master/titanic.csv).  
-\* **Description:** The dataset includes details of passengers such as age, class, gender, and survival status.
+**Source:** The Titanic dataset is loaded from \[this link\](https://raw.githubusercontent.com/datasciencedojo/datasets/master/titanic.csv).  
+**Description:** The dataset includes details of passengers such as age, class, gender, and survival status.
 
-\## Project 1: Exploratory Data Analysis (EDA)
+## Project 1: Exploratory Data Analysis (EDA)
 
-\* **Objective:** Understand the data distribution, handle missing values, and visualize key relationships.  
-\* **Steps Involved:**  
-    \- Load and explore the Titanic dataset.  
-    \- Handle missing values in the dataset (fill `Age` and drop `Cabin` and `Embarked` columns).  
-    \- Visualize:  
-        \* Distribution of passenger classes.  
-        \* Survival rates by passenger class and gender.  
-        \* Age distribution of passengers.
+**Objective:** Understand the data distribution, handle missing values, and visualize key relationships.  
+**Steps Involved:**  
+    - Load and explore the Titanic dataset.  
+    - Handle missing values in the dataset (fill `Age` and drop `Cabin` and `Embarked` columns).  
+    - Visualize:  
+        * Distribution of passenger classes.  
+        * Survival rates by passenger class and gender.  
+        * Age distribution of passengers.
 
-\## Project 2: Binary Logistic Regression for Classification
+## Project 2: Binary Logistic Regression for Classification
 
-\* **Objective:** Predict whether a passenger survived using logistic regression.  
-\* **Steps Involved:**  
-    \- Preprocess the data (convert `Sex` to binary and select key features).  
-    \- Split the dataset into training and testing sets.  
-    \- Train a Logistic Regression model on the training data.  
-    \- Evaluate the model's performance using accuracy, confusion matrix, and classification report.
+**Objective:** Predict whether a passenger survived using logistic regression.  
+**Steps Involved:**  
+    - Preprocess the data (convert `Sex` to binary and select key features).  
+    - Split the dataset into training and testing sets.  
+    - Train a Logistic Regression model on the training data.  
+    - Evaluate the model's performance using accuracy, confusion matrix, and classification report.
 
-\## Tools and Libraries
+## Tools and Libraries
 
-\* **Languages:** Python  
-\* **Libraries:**  
-    \- Pandas for data manipulation  
-    \- Seaborn and Matplotlib for data visualization  
-    \- Scikit-learn for model training and evaluation
+**Languages:** Python  
+**Libraries:**  
+    - Pandas for data manipulation  
+    - Seaborn and Matplotlib for data visualization  
+    - Scikit-learn for model training and evaluation
 
-\## Results
+## Results
 
-\* **Exploratory Data Analysis:** Provided insights into survival rates based on class, gender, and age.  
-\* **Model Performance:**  
-    \- Accuracy: \* \0.8100558659217877  
-    \- Confusion Matrix: \* \[[92 13]
+**Exploratory Data Analysis:** Provided insights into survival rates based on class, gender, and age.  
+**Model Performance:**  
+    - Accuracy: \* \0.8100558659217877  
+    - Confusion Matrix: \* \[[92 13]
                              [21 53]]  
-    \- Detailed precision, recall, and F1-score in the classification report.
+    - Detailed precision, recall, and F1-score in the classification report.
                 precision    recall  f1-score   support
 
            0       0.81      0.88      0.84       105
@@ -56,10 +56,10 @@ This project focuses on two main tasks:
    macro avg       0.81      0.80      0.80       179
 weighted avg       0.81      0.81      0.81       179
 
-\## Conclusion
+## Conclusion
 
 This project demonstrates both data analysis and machine learning, providing a comprehensive approach to predictive analytics.
 
-\## References
+## References
 
-\* Dataset: \[Titanic Dataset on GitHub\](https://raw.githubusercontent.com/datasciencedojo/datasets/master/titanic.csv)
+* Dataset: [Titanic Dataset on GitHub\](https://raw.githubusercontent.com/datasciencedojo/datasets/master/titanic.csv)
