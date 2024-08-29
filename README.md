@@ -53,8 +53,8 @@ This project focuses on two main tasks:
            1       0.80      0.72      0.76        74
 
     accuracy                           0.81       179
-   macro avg       0.81      0.80      0.80       179
-weighted avg       0.81      0.81      0.81       179
+    macro avg       0.81      0.80      0.80       179
+    weighted avg       0.81      0.81      0.81       179
 
 ## Conclusion
 
